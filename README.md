@@ -1,5 +1,6 @@
 # autokali
-Install main repositories now!
+<br>Install main repositories now!</br>
+<br>To install:</br>
 <br>git clone https://github.com/Den-html/autokali</br>
 <br>cd auto</br>
 <br>chmod 775 autokali</br>
