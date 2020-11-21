@@ -13,4 +13,6 @@ then
 	git clone https://github.com/Bitwise-01/Passwords
 	git clone https://github.com/aircrack-ng/mdk4
 	git clone https://github.com/XCHADXFAQ77X/XERXES
+	else
+	echo "Invaild number"
 fi
