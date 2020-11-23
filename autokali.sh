@@ -13,6 +13,7 @@ then
 	git clone https://github.com/Bitwise-01/Passwords
 	git clone https://github.com/aircrack-ng/mdk4
 	git clone https://github.com/XCHADXFAQ77X/XERXES
+	git clone https://github.com/FSystem88/spymer
 	else
 	echo "Invaild number"
 fi
