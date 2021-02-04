@@ -2,10 +2,7 @@
 cd ..
 clear
 echo "{           Auto kali                  }"
-echo "{  Do you want to install main reposites (Y/N) }"
-read numb
-if [ $numb = "Y" ]
-then
+cd /
 	apt-get update
 	apt-get upgrade
 	git clone https://github.com/htr-tech/zphisher.git
@@ -17,6 +14,3 @@ then
 	git clone https://github.com/FSystem88/spymer
         git clone https://github.com/rajkumardusad/Tool-X
         git clone https://github.com/Den-html/Viruses
-	else
-	echo "Aborting..."
-fi
