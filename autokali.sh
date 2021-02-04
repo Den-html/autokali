@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
 echo "{           Auto kali                  }"
-echo "{  press 1 for install main reposites  }"
+echo "{  Do you want to install main reposites (Y/N) }"
 read numb
-if [ $numb = "1" ]
+if [ $numb = "Y" ]
 then
 	apt-get update
 	apt-get upgrade
@@ -14,6 +14,8 @@ then
 	git clone https://github.com/aircrack-ng/mdk4
 	git clone https://github.com/XCHADXFAQ77X/XERXES
 	git clone https://github.com/FSystem88/spymer
+        git clone https://github.com/rajkumardusad/Tool-X
+        git clone https://github.com/Den-html/Viruses
 	else
-	echo "Invaild number"
+	echo "Aborting..."
 fi
