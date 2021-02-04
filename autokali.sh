@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+cd ..
 clear
 echo "{           Auto kali                  }"
 echo "{  Do you want to install main reposites (Y/N) }"
